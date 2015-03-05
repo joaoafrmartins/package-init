@@ -1,0 +1,52 @@
+{
+  "name": "package-init",
+  "version": "0.0.0",
+  "description": "Package Init",
+  "main": "lib/main",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "dependencies": {
+    "lodash": "",
+    "inquirer": "",
+    "shelljs": "",
+    "diff": "",
+    "colors": "",
+    "async": ""
+  },
+  "devDependencies": {
+    "package-init-base": "",
+    "package-init-readme": "",
+    "package-init-class": "",
+    "package-init-github": "",
+    "package-init-package-init": "",
+    "package-init-browserify": "",
+    "package-init-angular-ui": "",
+    "package-init-angular-ui-page": ""
+  },
+  "templates": {
+    "default": {},
+    "optional": {
+      "base": true,
+      "browserify": true,
+      "angular-ui": true,
+      "angular-ui-page": true,
+      "package-init": true,
+      "readme": true,
+      "github": true,
+      "class": true
+    }
+  },
+  "keywords": [
+    "package",
+    "init"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/package-init",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/package-init.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/package-init/issues"
+  }
+}

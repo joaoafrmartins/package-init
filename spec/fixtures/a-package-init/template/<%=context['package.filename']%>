@@ -1,0 +1,4 @@
+{
+  "name": "<%= context['package.name'] %>",
+  "version": "<%= context['package.version'] %>"
+}
